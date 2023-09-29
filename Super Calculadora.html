@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPE Super Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Super Calculadora</h1>
+
+        <div class="flex inputsCnt">
+            <label for="primeiroNumero">Primeiro Numero (A)</label>
+            <input type="number" name="primeiroNumero" id="primeiroNumero" value="3">
+            <label for="segundoNumero">Segundo Numero (B)</label>
+            <input type="number" name="segundoNumero" id="segundoNumero" value="2">
+            <input type="button" value="Calcular" onclick="calcular()" id="botaoCalcular">
+        </div>
+
+        
+
+    </header>
+
+    <main>
+        
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Soma   =   </p>
+            <p class="resultadoCalculo" id="soma"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Subtração A - B   =   </p>
+            <p class="resultadoCalculo" id="subtracao1"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Subtração B - A   =   </p>
+            <p class="resultadoCalculo" id="subtracao2"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Multiplicação   =   </p>
+            <p class="resultadoCalculo" id="multiplicacao"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Divisão A/B   =   </p>
+            <p class="resultadoCalculo" id="divisao1"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Divisão B/A   =   </p>
+            <p class="resultadoCalculo" id="divisao2"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Potência de A na base B   =   </p>
+            <p class="resultadoCalculo" id="potencia1"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Potência de B na base A   =   </p>
+            <p class="resultadoCalculo" id="potencia2"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Raiz quadrada de A   =   </p>
+            <p class="resultadoCalculo" id="raiz1"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Raiz quadrada de B   =   </p>
+            <p class="resultadoCalculo" id="raiz2"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Fatorial de A   =   </p>
+            <p class="resultadoCalculo" id="fatorial1"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Fatorial de B   =   </p>
+            <p class="resultadoCalculo" id="fatorial2"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Porcentagem de A em relação a B   =   </p>
+            <p class="resultadoCalculo" id="porcentagem1"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Porcentagem de B em relação a A   =   </p>
+            <p class="resultadoCalculo" id="porcentagem2"></p>
+        </section>
+        <section class="calculoCnt flex">
+            <p class="nomeCalculo">Média   =   </p>
+            <p class="resultadoCalculo" id="media"></p>
+        </section>
+    
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
